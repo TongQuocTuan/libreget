@@ -37,11 +37,10 @@ twitch-downloader, subtitle-downloader, epub-reader, spaced-repetition
 </p>
 
 <p align="center">
-  <a href="https://github.com/OpenSelena/libreget/releases/latest"><img src="https://img.shields.io/github/v/release/OpenSelena/libreget?style=for-the-badge&label=release&color=F28500" alt="Latest release" /></a>
-  <a href="https://github.com/OpenSelena/libreget/releases"><img src="https://img.shields.io/github/downloads/OpenSelena/libreget/total?style=for-the-badge&label=downloads&color=1E6FE8" alt="Total downloads" /></a>
-  <a href="https://github.com/OpenSelena/libreget/stargazers"><img src="https://img.shields.io/github/stars/OpenSelena/libreget?style=for-the-badge&color=FFD426" alt="GitHub stars" /></a>
+  <a href="https://github.com/TongQuocTuan/libreget/releases/latest"><img src="https://img.shields.io/github/v/release/TongQuocTuan/libreget?style=for-the-badge&label=release&color=F28500" alt="Latest release" /></a>
+  <a href="https://github.com/TongQuocTuan/libreget/releases"><img src="https://img.shields.io/github/downloads/TongQuocTuan/libreget/total?style=for-the-badge&label=downloads&color=1E6FE8" alt="Total downloads" /></a>
+  <a href="https://github.com/TongQuocTuan/libreget/stargazers"><img src="https://img.shields.io/github/stars/TongQuocTuan/libreget?style=for-the-badge&color=FFD426" alt="GitHub stars" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-GPL--3.0-2AA845?style=for-the-badge" alt="License GPL-3.0" /></a>
-  <a href="https://t.me/OpenSelena"><img src="https://img.shields.io/badge/Telegram-channel-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram channel" /></a>
   <a href="https://hosted.weblate.org/engage/libreget/"><img src="https://hosted.weblate.org/widget/libreget/frontend/svg-badge.svg" alt="Translation status" /></a>
 </p>
 
@@ -56,7 +55,7 @@ twitch-downloader, subtitle-downloader, epub-reader, spaced-repetition
 </p>
 
 <p align="center">
-  <sub>Maintained by <a href="https://github.com/igect">igect</a> under GPL-3.0</sub>
+  <sub>Maintained by <a href="https://github.com/TongQuocTuan">TongQuocTuan</a> under GPL-3.0</sub>
 </p>
 
 <p align="center">
@@ -112,7 +111,7 @@ yt-dlp is the engine LibreGet runs on, and LibreGet would not exist without it. 
 
 ## Download and install
 
-Pick your system. Every build is published on the [Releases page](https://github.com/OpenSelena/libreget/releases/latest). Updates arrive inside the app.
+Pick your system. Every build is published on the [Releases page](https://github.com/TongQuocTuan/libreget/releases/latest). Updates arrive inside the app.
 
 <table>
   <tr>
@@ -123,12 +122,12 @@ Pick your system. Every build is published on the [Releases page](https://github
   <tr>
     <td><b>Windows 10 / 11</b></td>
     <td><code>libreget_x.y.z_x64-setup.exe</code> (installer)<br/><code>libreget_x.y.z_x64-portable.exe</code> (no install, runs from anywhere)<br/><code>libreget_x.y.z_x64_en-US.msi</code> (for IT deployments)</td>
-    <td><code>winget install -e --id OpenSelena.LibreGet</code></td>
+    <td><code>winget install -e --id TongQuocTuan.LibreGet</code></td>
   </tr>
   <tr>
     <td><b>macOS 10.15+</b></td>
     <td><code>libreget_x.y.z_aarch64.dmg</code> for Apple Silicon (M1 and later)<br/><code>libreget_x.y.z_x64.dmg</code> for Intel Macs</td>
-    <td><code>brew install --cask OpenSelena/tap/libreget</code></td>
+    <td><code>brew install --cask TongQuocTuan/tap/libreget</code></td>
   </tr>
   <tr>
     <td><b>Linux</b></td>
@@ -218,7 +217,7 @@ The extension does two jobs. On sites it recognizes (YouTube, Instagram, TikTok,
 
 For the sites the sniffer cannot see, there is **Deep search**, a switch in the popup that hooks the page's own video player and catches playlists that never show up as network requests. It asks for permission on all sites the first time and stays off until then. Around it, the sniffer estimates the size of an HLS stream before you download, pairs the separate video and audio tracks a site serves so you get one file, checks the first bytes of what it found so an HTML error page is never saved as a video, and lets you edit the capture rules in the options page. The same options page can back up the list of extensions you have installed, ahead of Chrome dropping Manifest V2 extensions; that needs the optional "management" permission and asks for it only when you use it.
 
-The companion browser extension source and standalone releases are maintained at [OpenSelena/libreget-extension](https://github.com/OpenSelena/libreget-extension). Pick the level that matches how comfortable you are.
+The companion browser extension source and standalone releases are maintained at [TongQuocTuan/libreget-extension](https://github.com/TongQuocTuan/libreget-extension). Pick the level that matches how comfortable you are.
 
 <p align="center">
   <img src="assets/readme/extension.png" alt="Penguin mascot plugging a cable from a browser window into the LibreGet app window, with cookies travelling along it and a padlock and a house above it: the pairing stays on your own machine." width="100%" />
@@ -238,11 +237,11 @@ From now on, visit any supported page and click the icon. The page, its cookies 
 
 ### Level 2: from the release zip
 
-Every release ships pre-built extension archives. Download `libreget-chrome-extension.zip` or `libreget-firefox-extension.zip` from the official [OpenSelena/libreget-extension releases](https://github.com/OpenSelena/libreget-extension/releases/latest), unzip it, then follow steps 3 to 7 above pointing **Load unpacked** at the unzipped folder. Use this if you keep the app on one machine and the browser on another, or if you are installing for someone else.
+Every release ships pre-built extension archives. Download `libreget-chrome-extension.zip` or `libreget-firefox-extension.zip` from the official [TongQuocTuan/libreget-extension releases](https://github.com/TongQuocTuan/libreget-extension/releases/latest), unzip it, then follow steps 3 to 7 above pointing **Load unpacked** at the unzipped folder. Use this if you keep the app on one machine and the browser on another, or if you are installing for someone else.
 
 ### Level 3: Firefox, other browsers and manual pairing
 
-Firefox: install directly from Mozilla Add-ons (pending AMO approval) or download `libreget-firefox-extension.zip` from [libreget-extension releases](https://github.com/OpenSelena/libreget-extension/releases/latest). For temporary testing: **Settings → Plugins → Browser extension → Update / Install** next to Firefox, then open `about:debugging#/runtime/this-firefox`, click **Load Temporary Add-on** and pick `manifest.json` in the exported folder. Safari is not supported yet because Safari extensions must ship through the App Store.
+Firefox: install directly from Mozilla Add-ons (pending AMO approval) or download `libreget-firefox-extension.zip` from [libreget-extension releases](https://github.com/TongQuocTuan/libreget-extension/releases/latest). For temporary testing: **Settings → Plugins → Browser extension → Update / Install** next to Firefox, then open `about:debugging#/runtime/this-firefox`, click **Load Temporary Add-on** and pick `manifest.json` in the exported folder. Safari is not supported yet because Safari extensions must ship through the App Store.
 
 Manual pairing: if **Pair extension** times out, open the extension's options page (right-click the icon → Options), then in LibreGet reveal and copy the **Pairing token** and paste it into the options page. The endpoint URL is detected automatically. The app listens on `127.0.0.1` ports 47720 to 47729 and the token is generated per install, so nothing leaves your machine.
 
@@ -605,7 +604,7 @@ LibreGet downloads what your own logged-in session can already open. It does not
 
 Free code signing on Windows provided by [SignPath.io](https://about.signpath.io), certificate by [SignPath Foundation](https://signpath.org).
 
-Code changes and signed releases are reviewed and approved by the OpenSelena maintainers. See [Privacy and what LibreGet refuses to do](#privacy-and-what-libreget-refuses-to-do) for how LibreGet handles data.
+Code changes and signed releases are reviewed and approved by the TongQuocTuan maintainers. See [Privacy and what LibreGet refuses to do](#privacy-and-what-libreget-refuses-to-do) for how LibreGet handles data.
 
 ---
 
@@ -660,7 +659,7 @@ Debian and Ubuntu: `.deb`. Fedora, openSUSE, RHEL family: `.rpm`. Anything else:
 
 ## Command line
 
-`libreget-cli` ships with every release for Windows, macOS (Intel and Apple Silicon) and Linux. Grab `libreget-cli-<version>-<target>` from the [latest release](https://github.com/OpenSelena/libreget/releases/latest).
+`libreget-cli` ships with every release for Windows, macOS (Intel and Apple Silicon) and Linux. Grab `libreget-cli-<version>-<target>` from the [latest release](https://github.com/TongQuocTuan/libreget/releases/latest).
 
 ```bash
 libreget info <url>                     # title, formats and size, downloads nothing
@@ -677,7 +676,7 @@ libreget import-cookies cookies.txt     # Netscape format
 If you only want to use LibreGet, [grab a release](#download-and-install). To build it you need [Rust](https://rustup.rs/) (the exact toolchain is pinned in `rust-toolchain.toml` because the plugin ABI depends on it), [Node.js](https://nodejs.org/) 18+ and [pnpm](https://pnpm.io/).
 
 ```bash
-git clone https://github.com/OpenSelena/libreget.git
+git clone https://github.com/TongQuocTuan/libreget.git
 cd libreget
 pnpm install
 pnpm tauri dev
@@ -701,7 +700,7 @@ pnpm tauri build --config '{"bundle":{"createUpdaterArtifacts":false}}'
 
 Releases sign their updater artifacts with a private key only the maintainer holds, so a plain `pnpm tauri build` stops with "A public key has been found, but no private key". The flag above turns those artifacts off for a local build and changes nothing else.
 
-The `courses`, `telegram` and `convert` plugins live inside `src-tauri/plugins/` and compile into the main binary. The plugin registry is [libreget-plugins](https://github.com/OpenSelena/libreget-plugins).
+The `courses`, `telegram` and `convert` plugins live inside `src-tauri/plugins/` and compile into the main binary. The plugin registry is [libreget-plugins](https://github.com/TongQuocTuan/libreget-plugins).
 
 Stack: Tauri 2, Rust, SvelteKit with Svelte 5, SQLite, yt-dlp, FFmpeg, librqbit for torrents, whisper.cpp, aria2, gallery-dl.
 
@@ -709,7 +708,6 @@ Stack: Tauri 2, Rust, SvelteKit with Svelte 5, SQLite, yt-dlp, FFmpeg, librqbit 
 
 ## Contributing and translations
 
-Bug reports and pull requests go to [Issues](https://github.com/OpenSelena/libreget/issues) and [Pull requests](https://github.com/OpenSelena/libreget/pulls). Questions and quick help live on [Telegram](https://t.me/OpenSelena). Security inquiries and vulnerability reports: [SECURITY.md](SECURITY.md) or [igect@vk.com](mailto:igect@vk.com).
 
 Translations are managed on [Weblate](https://hosted.weblate.org/engage/libreget/). Pick your language and translate in the browser. New strings appear there a few hours after they land in `main`.
 
@@ -718,9 +716,9 @@ LibreGet is built on [yt-dlp](https://github.com/yt-dlp/yt-dlp), [FFmpeg](https:
 The penguin mascot is LibreGet's project mascot. Community fan art is welcome. Project brand assets may not be used commercially or bundled into misleading third-party forks without permission.
 
 <p align="center">
-  <a href="https://star-history.com/#OpenSelena/libreget&Date"><img src="https://api.star-history.com/svg?repos=OpenSelena/libreget&type=Date" alt="Star history of OpenSelena/libreget" width="600" /></a>
+  <a href="https://star-history.com/#TongQuocTuan/libreget&Date"><img src="https://api.star-history.com/svg?repos=TongQuocTuan/libreget&type=Date" alt="Star history of TongQuocTuan/libreget" width="600" /></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/OpenSelena/libreget/releases/latest"><b>Download LibreGet</b></a> · <a href="LICENSE">GPL-3.0</a>
+  <a href="https://github.com/TongQuocTuan/libreget/releases/latest"><b>Download LibreGet</b></a> · <a href="LICENSE">GPL-3.0</a>
 </p>

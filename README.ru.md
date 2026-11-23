@@ -37,11 +37,10 @@ twitch-downloader, subtitle-downloader, epub-reader, spaced-repetition
 </p>
 
 <p align="center">
-  <a href="https://github.com/OpenSelena/libreget/releases/latest"><img src="https://img.shields.io/github/v/release/OpenSelena/libreget?style=for-the-badge&label=release&color=F28500" alt="Последний релиз" /></a>
-  <a href="https://github.com/OpenSelena/libreget/releases"><img src="https://img.shields.io/github/downloads/OpenSelena/libreget/total?style=for-the-badge&label=downloads&color=1E6FE8" alt="Всего загрузок" /></a>
-  <a href="https://github.com/OpenSelena/libreget/stargazers"><img src="https://img.shields.io/github/stars/OpenSelena/libreget?style=for-the-badge&color=FFD426" alt="Звёзды на GitHub" /></a>
+  <a href="https://github.com/TongQuocTuan/libreget/releases/latest"><img src="https://img.shields.io/github/v/release/TongQuocTuan/libreget?style=for-the-badge&label=release&color=F28500" alt="Последний релиз" /></a>
+  <a href="https://github.com/TongQuocTuan/libreget/releases"><img src="https://img.shields.io/github/downloads/TongQuocTuan/libreget/total?style=for-the-badge&label=downloads&color=1E6FE8" alt="Всего загрузок" /></a>
+  <a href="https://github.com/TongQuocTuan/libreget/stargazers"><img src="https://img.shields.io/github/stars/TongQuocTuan/libreget?style=for-the-badge&color=FFD426" alt="Звёзды на GitHub" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-GPL--3.0-2AA845?style=for-the-badge" alt="Лицензия GPL-3.0" /></a>
-  <a href="https://t.me/OpenSelena"><img src="https://img.shields.io/badge/Telegram-channel-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Канал в Telegram" /></a>
   <a href="https://hosted.weblate.org/engage/libreget/"><img src="https://hosted.weblate.org/widget/libreget/frontend/svg-badge.svg" alt="Статус перевода" /></a>
 </p>
 
@@ -56,7 +55,7 @@ twitch-downloader, subtitle-downloader, epub-reader, spaced-repetition
 </p>
 
 <p align="center">
-  <sub>Поддерживается <a href="https://github.com/igect">igect</a> под GPL-3.0</sub>
+  <sub>Поддерживается <a href="https://github.com/TongQuocTuan">TongQuocTuan</a> под GPL-3.0</sub>
 </p>
 
 <p align="center">
@@ -111,7 +110,7 @@ yt-dlp — это движок, на котором работает LibreGet, �
 
 ## Скачать и установить
 
-Выберите свою систему. Все сборки публикуются на [странице релизов](https://github.com/OpenSelena/libreget/releases/latest). Обновления приходят внутри приложения.
+Выберите свою систему. Все сборки публикуются на [странице релизов](https://github.com/TongQuocTuan/libreget/releases/latest). Обновления приходят внутри приложения.
 
 <table>
   <tr>
@@ -122,12 +121,12 @@ yt-dlp — это движок, на котором работает LibreGet, �
   <tr>
     <td><b>Windows 10 / 11</b></td>
     <td><code>libreget_x.y.z_x64-setup.exe</code> (установщик)<br/><code>libreget_x.y.z_x64-portable.exe</code> (без установки, запускается откуда угодно)<br/><code>libreget_x.y.z_x64_en-US.msi</code> (для ИТ-развёртывания)</td>
-    <td><code>winget install -e --id OpenSelena.LibreGet</code></td>
+    <td><code>winget install -e --id TongQuocTuan.LibreGet</code></td>
   </tr>
   <tr>
     <td><b>macOS 10.15+</b></td>
     <td><code>libreget_x.y.z_aarch64.dmg</code> для Apple Silicon (M1 и новее)<br/><code>libreget_x.y.z_x64.dmg</code> для Mac на Intel</td>
-    <td><code>brew install --cask OpenSelena/tap/libreget</code></td>
+    <td><code>brew install --cask TongQuocTuan/tap/libreget</code></td>
   </tr>
   <tr>
     <td><b>Linux</b></td>
@@ -237,7 +236,7 @@ sudo pacman -S gst-plugins-good gst-plugins-bad gst-libav   # Arch
 
 ### Уровень 2: из zip-архива релиза
 
-В каждом релизе есть `libreget-chrome-extension-vX.Y.Z.zip`. Скачайте его из [последнего релиза](https://github.com/OpenSelena/libreget/releases/latest), распакуйте и повторите шаги 3–7 выше, указав в **Загрузить распакованное расширение** распакованную папку. Это удобно, если приложение стоит на одной машине, а браузер на другой, или вы ставите расширение кому-то ещё.
+В каждом релизе есть `libreget-chrome-extension-vX.Y.Z.zip`. Скачайте его из [последнего релиза](https://github.com/TongQuocTuan/libreget/releases/latest), распакуйте и повторите шаги 3–7 выше, указав в **Загрузить распакованное расширение** распакованную папку. Это удобно, если приложение стоит на одной машине, а браузер на другой, или вы ставите расширение кому-то ещё.
 
 ### Уровень 3: Firefox, другие браузеры и ручное сопряжение
 
@@ -651,7 +650,7 @@ Debian и Ubuntu: `.deb`. Fedora, openSUSE, семейство RHEL: `.rpm`. В�
 
 ## Командная строка
 
-`libreget-cli` выходит с каждым релизом для Windows, macOS (Intel и Apple Silicon) и Linux. Возьмите `libreget-cli-<version>-<target>` из [последнего релиза](https://github.com/OpenSelena/libreget/releases/latest).
+`libreget-cli` выходит с каждым релизом для Windows, macOS (Intel и Apple Silicon) и Linux. Возьмите `libreget-cli-<version>-<target>` из [последнего релиза](https://github.com/TongQuocTuan/libreget/releases/latest).
 
 ```bash
 libreget info <url>                     # название, форматы и размер; ничего не скачивает
@@ -668,7 +667,7 @@ libreget import-cookies cookies.txt     # формат Netscape
 Если вы просто хотите пользоваться LibreGet, [возьмите релиз](#скачать-и-установить). Для сборки нужны [Rust](https://rustup.rs/) (точная версия тулчейна закреплена в `rust-toolchain.toml`, потому что от неё зависит ABI плагинов), [Node.js](https://nodejs.org/) 18+ и [pnpm](https://pnpm.io/).
 
 ```bash
-git clone https://github.com/OpenSelena/libreget.git
+git clone https://github.com/TongQuocTuan/libreget.git
 cd libreget
 pnpm install
 pnpm tauri dev
@@ -692,7 +691,7 @@ pnpm tauri build --config '{"bundle":{"createUpdaterArtifacts":false}}'
 
 Релизы подписывают артефакты обновления приватным ключом, который есть только у мейнтейнера, поэтому обычный `pnpm tauri build` останавливается с ошибкой «A public key has been found, but no private key». Флаг выше отключает эти артефакты для локальной сборки и ничего больше не меняет.
 
-Плагины `courses`, `telegram` и `convert` лежат внутри `src-tauri/plugins/` и собираются в основной бинарник. Реестр плагинов: [libreget-plugins](https://github.com/OpenSelena/libreget-plugins).
+Плагины `courses`, `telegram` и `convert` лежат внутри `src-tauri/plugins/` и собираются в основной бинарник. Реестр плагинов: [libreget-plugins](https://github.com/TongQuocTuan/libreget-plugins).
 
 Стек: Tauri 2, Rust, SvelteKit на Svelte 5, SQLite, yt-dlp, FFmpeg, librqbit для торрентов, whisper.cpp, aria2, gallery-dl.
 
@@ -700,7 +699,6 @@ pnpm tauri build --config '{"bundle":{"createUpdaterArtifacts":false}}'
 
 ## Участие и переводы
 
-Сообщения об ошибках и pull request'ы — в [Issues](https://github.com/OpenSelena/libreget/issues) и [Pull requests](https://github.com/OpenSelena/libreget/pulls). Вопросы и быстрая помощь — в [Telegram](https://t.me/OpenSelena). Вопросы безопасности и сообщения об уязвимостях: [SECURITY.md](SECURITY.md) или [igect@vk.com](mailto:igect@vk.com).
 
 Переводы ведутся на [Weblate](https://hosted.weblate.org/engage/libreget/). Выберите свой язык и переводите в браузере. Новые строки появляются там через несколько часов после попадания в `main`.
 
@@ -709,9 +707,9 @@ LibreGet построен на [yt-dlp](https://github.com/yt-dlp/yt-dlp), [FFmp
 Пингвин на главном экране — маскот LibreGet. Фан-арт приветствуется. Бренд и официальная графика не могут использоваться в коммерческих целях или распространяться в сторонних форках без разрешения.
 
 <p align="center">
-  <a href="https://star-history.com/#OpenSelena/libreget&Date"><img src="https://api.star-history.com/svg?repos=OpenSelena/libreget&type=Date" alt="История звёзд OpenSelena/libreget" width="600" /></a>
+  <a href="https://star-history.com/#TongQuocTuan/libreget&Date"><img src="https://api.star-history.com/svg?repos=TongQuocTuan/libreget&type=Date" alt="История звёзд TongQuocTuan/libreget" width="600" /></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/OpenSelena/libreget/releases/latest"><b>Скачать LibreGet</b></a> · <a href="LICENSE">GPL-3.0</a>
+  <a href="https://github.com/TongQuocTuan/libreget/releases/latest"><b>Скачать LibreGet</b></a> · <a href="LICENSE">GPL-3.0</a>
 </p>

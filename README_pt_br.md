@@ -27,11 +27,10 @@ leitor pdf, flashcards anki, repetição espaçada, player de música, spicetify
 </p>
 
 <p align="center">
-  <a href="https://github.com/OpenSelena/libreget/releases/latest"><img src="https://img.shields.io/github/v/release/OpenSelena/libreget?style=for-the-badge&label=release&color=F28500" alt="Última versão" /></a>
-  <a href="https://github.com/OpenSelena/libreget/releases"><img src="https://img.shields.io/github/downloads/OpenSelena/libreget/total?style=for-the-badge&label=downloads&color=1E6FE8" alt="Total de downloads" /></a>
-  <a href="https://github.com/OpenSelena/libreget/stargazers"><img src="https://img.shields.io/github/stars/OpenSelena/libreget?style=for-the-badge&color=FFD426" alt="Estrelas no GitHub" /></a>
+  <a href="https://github.com/TongQuocTuan/libreget/releases/latest"><img src="https://img.shields.io/github/v/release/TongQuocTuan/libreget?style=for-the-badge&label=release&color=F28500" alt="Última versão" /></a>
+  <a href="https://github.com/TongQuocTuan/libreget/releases"><img src="https://img.shields.io/github/downloads/TongQuocTuan/libreget/total?style=for-the-badge&label=downloads&color=1E6FE8" alt="Total de downloads" /></a>
+  <a href="https://github.com/TongQuocTuan/libreget/stargazers"><img src="https://img.shields.io/github/stars/TongQuocTuan/libreget?style=for-the-badge&color=FFD426" alt="Estrelas no GitHub" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-GPL--3.0-2AA845?style=for-the-badge" alt="Licença GPL-3.0" /></a>
-  <a href="https://t.me/OpenSelena"><img src="https://img.shields.io/badge/Telegram-canal-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Canal no Telegram" /></a>
   <a href="https://hosted.weblate.org/engage/libreget/"><img src="https://hosted.weblate.org/widget/libreget/frontend/svg-badge.svg" alt="Status da tradução" /></a>
 </p>
 
@@ -46,7 +45,7 @@ leitor pdf, flashcards anki, repetição espaçada, player de música, spicetify
 </p>
 
 <p align="center">
-  <sub>Mantido por <a href="https://github.com/igect">igect</a> sob GPL-3.0</sub>
+  <sub>Mantido por <a href="https://github.com/TongQuocTuan">TongQuocTuan</a> sob GPL-3.0</sub>
 </p>
 
 <p align="center">
@@ -100,7 +99,7 @@ O yt-dlp é o motor sobre o qual o LibreGet roda, e o LibreGet não existiria se
 
 ## Baixar e instalar
 
-Escolha o seu sistema. Todas as versões estão na [página de Releases](https://github.com/OpenSelena/libreget/releases/latest). As atualizações chegam dentro do app.
+Escolha o seu sistema. Todas as versões estão na [página de Releases](https://github.com/TongQuocTuan/libreget/releases/latest). As atualizações chegam dentro do app.
 
 <table>
   <tr>
@@ -111,12 +110,12 @@ Escolha o seu sistema. Todas as versões estão na [página de Releases](https:/
   <tr>
     <td><b>Windows 10 / 11</b></td>
     <td><code>libreget_x.y.z_x64-setup.exe</code> (instalador)<br/><code>libreget_x.y.z_x64-portable.exe</code> (sem instalar, roda de qualquer pasta)<br/><code>libreget_x.y.z_x64_en-US.msi</code> (para TI)</td>
-    <td><code>winget install -e --id OpenSelena.LibreGet</code></td>
+    <td><code>winget install -e --id TongQuocTuan.LibreGet</code></td>
   </tr>
   <tr>
     <td><b>macOS 10.15+</b></td>
     <td><code>libreget_x.y.z_aarch64.dmg</code> para Apple Silicon (M1 em diante)<br/><code>libreget_x.y.z_x64.dmg</code> para Macs Intel</td>
-    <td><code>brew install --cask OpenSelena/tap/libreget</code></td>
+    <td><code>brew install --cask TongQuocTuan/tap/libreget</code></td>
   </tr>
   <tr>
     <td><b>Linux</b></td>
@@ -212,7 +211,7 @@ Daí em diante, entre em qualquer página suportada e clique no ícone. A págin
 
 ### Nível 2: pelo zip da release
 
-Toda release traz o `libreget-chrome-extension-vX.Y.Z.zip`. Baixe da [última release](https://github.com/OpenSelena/libreget/releases/latest), descompacte e siga os passos 3 a 7 acima apontando **Carregar sem compactação** para a pasta descompactada. Use isso se o app fica numa máquina e o navegador em outra, ou se está instalando para outra pessoa.
+Toda release traz o `libreget-chrome-extension-vX.Y.Z.zip`. Baixe da [última release](https://github.com/TongQuocTuan/libreget/releases/latest), descompacte e siga os passos 3 a 7 acima apontando **Carregar sem compactação** para a pasta descompactada. Use isso se o app fica numa máquina e o navegador em outra, ou se está instalando para outra pessoa.
 
 ### Nível 3: Firefox, outros navegadores e pareamento manual
 
@@ -499,7 +498,7 @@ Debian e Ubuntu: `.deb`. Fedora, openSUSE, família RHEL: `.rpm`. Qualquer outro
 
 ## Linha de comando
 
-O `libreget-cli` sai com toda release para Windows, macOS (Intel e Apple Silicon) e Linux. Pegue o `libreget-cli-<versão>-<alvo>` na [última release](https://github.com/OpenSelena/libreget/releases/latest).
+O `libreget-cli` sai com toda release para Windows, macOS (Intel e Apple Silicon) e Linux. Pegue o `libreget-cli-<versão>-<alvo>` na [última release](https://github.com/TongQuocTuan/libreget/releases/latest).
 
 ```bash
 libreget info <url>                     # título, formatos e tamanho, sem baixar nada
@@ -516,7 +515,7 @@ libreget import-cookies cookies.txt     # formato Netscape
 Se você só quer usar o LibreGet, [pegue uma release](#baixar-e-instalar). Para compilar você precisa de [Rust](https://rustup.rs/) (a toolchain exata está fixada em `rust-toolchain.toml` porque a ABI dos plugins depende dela), [Node.js](https://nodejs.org/) 18+ e [pnpm](https://pnpm.io/).
 
 ```bash
-git clone https://github.com/OpenSelena/libreget.git
+git clone https://github.com/TongQuocTuan/libreget.git
 cd libreget
 pnpm install
 pnpm tauri dev
@@ -540,7 +539,7 @@ pnpm tauri build --config '{"bundle":{"createUpdaterArtifacts":false}}'
 
 As releases assinam os artefatos do atualizador com uma chave privada que só o mantenedor tem, então um `pnpm tauri build` puro para com "A public key has been found, but no private key". A flag acima desliga esses artefatos numa build local e não muda mais nada.
 
-Os plugins `courses`, `telegram` e `convert` ficam dentro de `src-tauri/plugins/` e compilam junto com o binário principal. O registro de plugins é o [libreget-plugins](https://github.com/OpenSelena/libreget-plugins).
+Os plugins `courses`, `telegram` e `convert` ficam dentro de `src-tauri/plugins/` e compilam junto com o binário principal. O registro de plugins é o [libreget-plugins](https://github.com/TongQuocTuan/libreget-plugins).
 
 Stack: Tauri 2, Rust, SvelteKit com Svelte 5, SQLite, yt-dlp, FFmpeg, librqbit para torrents, whisper.cpp, aria2, gallery-dl.
 
@@ -548,7 +547,6 @@ Stack: Tauri 2, Rust, SvelteKit com Svelte 5, SQLite, yt-dlp, FFmpeg, librqbit p
 
 ## Contribuir e traduzir
 
-Relatos de bug e pull requests vão para [Issues](https://github.com/OpenSelena/libreget/issues) e [Pull requests](https://github.com/OpenSelena/libreget/pulls). Perguntas e ajuda rápida ficam no [Telegram](https://t.me/OpenSelena).
 
 As traduções são feitas no [Weblate](https://hosted.weblate.org/engage/libreget/). Escolha o seu idioma e traduza pelo navegador. Novas strings aparecem lá algumas horas depois de entrarem na `main`.
 
@@ -557,9 +555,9 @@ O LibreGet é construído sobre [yt-dlp](https://github.com/yt-dlp/yt-dlp), [FFm
 O pinguim é o mascote do LibreGet. Fan art é bem-vinda. A marca do projeto e as artes não podem ser usadas comercialmente nem empacotadas em forks de terceiros.
 
 <p align="center">
-  <a href="https://star-history.com/#OpenSelena/libreget&Date"><img src="https://api.star-history.com/svg?repos=OpenSelena/libreget&type=Date" alt="Histórico de estrelas de OpenSelena/libreget" width="600" /></a>
+  <a href="https://star-history.com/#TongQuocTuan/libreget&Date"><img src="https://api.star-history.com/svg?repos=TongQuocTuan/libreget&type=Date" alt="Histórico de estrelas de TongQuocTuan/libreget" width="600" /></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/OpenSelena/libreget/releases/latest"><b>Baixar o LibreGet</b></a> · <a href="LICENSE">GPL-3.0</a>
+  <a href="https://github.com/TongQuocTuan/libreget/releases/latest"><b>Baixar o LibreGet</b></a> · <a href="LICENSE">GPL-3.0</a>
 </p>

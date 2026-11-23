@@ -1,4 +1,4 @@
-app-id: com.openselena.libreget
+app-id: com.tongquoctuan.libreget
 runtime: org.gnome.Platform
 runtime-version: '51'
 sdk: org.gnome.Sdk
@@ -139,9 +139,9 @@ modules:
       - npx vite build
       - cargo --offline build --release --manifest-path src-tauri/Cargo.toml
       - install -Dm755 src-tauri/target/release/libreget /app/bin/libreget
-      - install -Dm644 flatpak/com.openselena.libreget.desktop /app/share/applications/com.openselena.libreget.desktop
-      - install -Dm644 flatpak/com.openselena.libreget.metainfo.xml /app/share/metainfo/com.openselena.libreget.metainfo.xml
-      - install -Dm644 flatpak/com.openselena.libreget.png /app/share/icons/hicolor/128x128/apps/com.openselena.libreget.png
+      - install -Dm644 flatpak/com.tongquoctuan.libreget.desktop /app/share/applications/com.tongquoctuan.libreget.desktop
+      - install -Dm644 flatpak/com.tongquoctuan.libreget.metainfo.xml /app/share/metainfo/com.tongquoctuan.libreget.metainfo.xml
+      - install -Dm644 flatpak/com.tongquoctuan.libreget.png /app/share/icons/hicolor/128x128/apps/com.tongquoctuan.libreget.png
     sources:
       - type: dir
         path: ..

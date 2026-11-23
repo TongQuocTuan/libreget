@@ -15,7 +15,7 @@ resolver = "2"
 name = "libreget"
 version = "1.0.0"
 description = "LibreGet — Universal Downloader & Media Player"
-authors = ["OpenSelena"]
+authors = ["TongQuocTuan"]
 edition = "2021"
 
 [lib]

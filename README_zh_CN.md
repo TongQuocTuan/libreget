@@ -27,11 +27,10 @@ spicetify, 下载管理器, tauri, rust, svelte.
 </p>
 
 <p align="center">
-  <a href="https://github.com/OpenSelena/libreget/releases/latest"><img src="https://img.shields.io/github/v/release/OpenSelena/libreget?style=for-the-badge&label=release&color=F28500" alt="最新版本" /></a>
-  <a href="https://github.com/OpenSelena/libreget/releases"><img src="https://img.shields.io/github/downloads/OpenSelena/libreget/total?style=for-the-badge&label=downloads&color=1E6FE8" alt="总下载量" /></a>
-  <a href="https://github.com/OpenSelena/libreget/stargazers"><img src="https://img.shields.io/github/stars/OpenSelena/libreget?style=for-the-badge&color=FFD426" alt="GitHub Star 数" /></a>
+  <a href="https://github.com/TongQuocTuan/libreget/releases/latest"><img src="https://img.shields.io/github/v/release/TongQuocTuan/libreget?style=for-the-badge&label=release&color=F28500" alt="最新版本" /></a>
+  <a href="https://github.com/TongQuocTuan/libreget/releases"><img src="https://img.shields.io/github/downloads/TongQuocTuan/libreget/total?style=for-the-badge&label=downloads&color=1E6FE8" alt="总下载量" /></a>
+  <a href="https://github.com/TongQuocTuan/libreget/stargazers"><img src="https://img.shields.io/github/stars/TongQuocTuan/libreget?style=for-the-badge&color=FFD426" alt="GitHub Star 数" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-GPL--3.0-2AA845?style=for-the-badge" alt="GPL-3.0 许可证" /></a>
-  <a href="https://t.me/OpenSelena"><img src="https://img.shields.io/badge/Telegram-频道-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram 频道" /></a>
   <a href="https://hosted.weblate.org/engage/libreget/"><img src="https://hosted.weblate.org/widget/libreget/frontend/svg-badge.svg" alt="翻译状态" /></a>
 </p>
 
@@ -46,7 +45,7 @@ spicetify, 下载管理器, tauri, rust, svelte.
 </p>
 
 <p align="center">
-  <sub>由 <a href="https://github.com/igect">igect</a> 在 GPL-3.0 协议下维护</sub>
+  <sub>由 <a href="https://github.com/TongQuocTuan">TongQuocTuan</a> 在 GPL-3.0 协议下维护</sub>
 </p>
 
 <p align="center">
@@ -100,7 +99,7 @@ yt-dlp 是 LibreGet 运行的引擎，没有它就没有 LibreGet。如果你常
 
 ## 下载与安装
 
-选择你的系统。所有构建都发布在 [Releases 页面](https://github.com/OpenSelena/libreget/releases/latest)。更新在应用内推送。
+选择你的系统。所有构建都发布在 [Releases 页面](https://github.com/TongQuocTuan/libreget/releases/latest)。更新在应用内推送。
 
 <table>
   <tr>
@@ -111,12 +110,12 @@ yt-dlp 是 LibreGet 运行的引擎，没有它就没有 LibreGet。如果你常
   <tr>
     <td><b>Windows 10 / 11</b></td>
     <td><code>libreget_x.y.z_x64-setup.exe</code>（安装版）<br/><code>libreget_x.y.z_x64-portable.exe</code>（免安装，放哪儿都能跑）<br/><code>libreget_x.y.z_x64_en-US.msi</code>（企业部署用）</td>
-    <td><code>winget install -e --id OpenSelena.LibreGet</code></td>
+    <td><code>winget install -e --id TongQuocTuan.LibreGet</code></td>
   </tr>
   <tr>
     <td><b>macOS 10.15+</b></td>
     <td><code>libreget_x.y.z_aarch64.dmg</code>，Apple Silicon（M1 及之后）<br/><code>libreget_x.y.z_x64.dmg</code>，Intel Mac</td>
-    <td><code>brew install --cask OpenSelena/tap/libreget</code></td>
+    <td><code>brew install --cask TongQuocTuan/tap/libreget</code></td>
   </tr>
   <tr>
     <td><b>Linux</b></td>
@@ -212,7 +211,7 @@ LibreGet 为最常用的平台写了原生提取器，其余的交给 [yt-dlp](h
 
 ### 级别二：从发布包的 zip 安装
 
-每个版本都附带 `libreget-chrome-extension-vX.Y.Z.zip`。从[最新版本](https://github.com/OpenSelena/libreget/releases/latest)下载、解压，然后按上面第 3 到第 7 步操作，把**加载已解压的扩展程序**指向解压出的文件夹。适合应用装在一台电脑、浏览器在另一台的情况，或者你在帮别人安装。
+每个版本都附带 `libreget-chrome-extension-vX.Y.Z.zip`。从[最新版本](https://github.com/TongQuocTuan/libreget/releases/latest)下载、解压，然后按上面第 3 到第 7 步操作，把**加载已解压的扩展程序**指向解压出的文件夹。适合应用装在一台电脑、浏览器在另一台的情况，或者你在帮别人安装。
 
 ### 级别三：Firefox、其他浏览器和手动配对
 
@@ -499,7 +498,7 @@ Debian 和 Ubuntu：`.deb`。Fedora、openSUSE、RHEL 系：`.rpm`。其他：`.
 
 ## 命令行
 
-`libreget-cli` 随每个版本发布，支持 Windows、macOS（Intel 和 Apple Silicon）和 Linux。从[最新版本](https://github.com/OpenSelena/libreget/releases/latest)下载 `libreget-cli-<版本>-<平台>`。
+`libreget-cli` 随每个版本发布，支持 Windows、macOS（Intel 和 Apple Silicon）和 Linux。从[最新版本](https://github.com/TongQuocTuan/libreget/releases/latest)下载 `libreget-cli-<版本>-<平台>`。
 
 ```bash
 libreget info <url>                     # 标题、格式和大小，不下载任何东西
@@ -516,7 +515,7 @@ libreget import-cookies cookies.txt     # Netscape 格式
 如果你只是想用 LibreGet，请[直接下载发布版](#下载与安装)。构建需要 [Rust](https://rustup.rs/)（精确的工具链版本固定在 `rust-toolchain.toml` 里，因为插件 ABI 依赖它）、[Node.js](https://nodejs.org/) 18+ 和 [pnpm](https://pnpm.io/)。
 
 ```bash
-git clone https://github.com/OpenSelena/libreget.git
+git clone https://github.com/TongQuocTuan/libreget.git
 cd libreget
 pnpm install
 pnpm tauri dev
@@ -540,7 +539,7 @@ pnpm tauri build --config '{"bundle":{"createUpdaterArtifacts":false}}'
 
 正式版本用只有维护者持有的私钥签名更新包，所以直接 `pnpm tauri build` 会停在 "A public key has been found, but no private key"。上面的参数在本地构建时关掉这些更新包，其他一切不变。
 
-核心插件（`courses`、`telegram`、`convert`）均作为内置模块静态链接在 `src-tauri/plugins/` 目录中，随主程序一起编译。插件注册表为 [libreget-plugins](https://github.com/OpenSelena/libreget-plugins)。
+核心插件（`courses`、`telegram`、`convert`）均作为内置模块静态链接在 `src-tauri/plugins/` 目录中，随主程序一起编译。插件注册表为 [libreget-plugins](https://github.com/TongQuocTuan/libreget-plugins)。
 
 技术栈：Tauri 2、Rust、SvelteKit（Svelte 5）、SQLite、yt-dlp、FFmpeg、librqbit（种子）、whisper.cpp、aria2、gallery-dl。
 
@@ -548,7 +547,6 @@ pnpm tauri build --config '{"bundle":{"createUpdaterArtifacts":false}}'
 
 ## 参与贡献与翻译
 
-Bug 报告和 Pull Request 请提到 [Issues](https://github.com/OpenSelena/libreget/issues) 和 [Pull requests](https://github.com/OpenSelena/libreget/pulls)。提问和快速求助在 [Telegram](https://t.me/OpenSelena)。
 
 翻译在 [Weblate](https://hosted.weblate.org/engage/libreget/) 上进行。选择你的语言，直接在浏览器里翻译。新字符串合入 `main` 几小时后就会出现在那里。
 
@@ -557,9 +555,9 @@ LibreGet 建立在 [yt-dlp](https://github.com/yt-dlp/yt-dlp)、[FFmpeg](https:/
 主界面上的企鹅是 LibreGet 的吉祥物。欢迎社区同人创作。项目品牌与美术资源不得用于商业用途或打包进第三方衍生版本。
 
 <p align="center">
-  <a href="https://star-history.com/#OpenSelena/libreget&Date"><img src="https://api.star-history.com/svg?repos=OpenSelena/libreget&type=Date" alt="OpenSelena/libreget 的 Star 历史" width="600" /></a>
+  <a href="https://star-history.com/#TongQuocTuan/libreget&Date"><img src="https://api.star-history.com/svg?repos=TongQuocTuan/libreget&type=Date" alt="TongQuocTuan/libreget 的 Star 历史" width="600" /></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/OpenSelena/libreget/releases/latest"><b>下载 LibreGet</b></a> · <a href="LICENSE">GPL-3.0</a>
+  <a href="https://github.com/TongQuocTuan/libreget/releases/latest"><b>下载 LibreGet</b></a> · <a href="LICENSE">GPL-3.0</a>
 </p>

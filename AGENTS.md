@@ -17,7 +17,7 @@ Welcome to LibreGet. This file serves as the definitive reference and operating 
 
 > [!IMPORTANT]
 > **NEVER skip writing the release notes when cutting or preparing a release.**
-> The in-app changelog modal (`src/lib/stores/changelog-store.svelte.ts`) fetches the GitHub release body directly from `https://api.github.com/repos/OpenSelena/libreget/releases/tags/v<VERSION>`. Leaving release notes blank breaks the in-app user experience.
+> The in-app changelog modal (`src/lib/stores/changelog-store.svelte.ts`) fetches the GitHub release body directly from `https://api.github.com/repos/TongQuocTuan/libreget/releases/tags/v<VERSION>`. Leaving release notes blank breaks the in-app user experience.
 
 ### Standard Operating Procedure for Every Release:
 
@@ -74,7 +74,7 @@ Before pushing to `dev`:
 
 ### Issue tracker
 
-GitHub Issues at OpenSelena/libreget via the `gh` CLI. See `docs/agents/issue-tracker.md`.
+GitHub Issues at TongQuocTuan/libreget via the `gh` CLI. See `docs/agents/issue-tracker.md`.
 
 ### Triage labels
 

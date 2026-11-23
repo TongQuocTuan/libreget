@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-  <id>com.openselena.libreget</id>
+  <id>com.tongquoctuan.libreget</id>
   <name>LibreGet</name>
   <summary>Download media from multiple platforms</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0-or-later</project_license>
-  <developer id="com.openselena">
-    <name>OpenSelena</name>
+  <developer id="com.tongquoctuan">
+    <name>TongQuocTuan</name>
   </developer>
   <description>
     <p>
@@ -23,17 +23,17 @@
       <li>Queue management with concurrent downloads</li>
     </ul>
   </description>
-  <url type="homepage">https://github.com/OpenSelena/libreget</url>
-  <url type="bugtracker">https://github.com/OpenSelena/libreget/issues</url>
-  <url type="vcs-browser">https://github.com/OpenSelena/libreget</url>
-  <launchable type="desktop-id">com.openselena.libreget.desktop</launchable>
+  <url type="homepage">https://github.com/TongQuocTuan/libreget</url>
+  <url type="bugtracker">https://github.com/TongQuocTuan/libreget/issues</url>
+  <url type="vcs-browser">https://github.com/TongQuocTuan/libreget</url>
+  <launchable type="desktop-id">com.tongquoctuan.libreget.desktop</launchable>
   <provides>
     <binary>libreget</binary>
   </provides>
   <screenshots>
     <screenshot type="default">
       <caption>Main download interface</caption>
-      <image>https://raw.githubusercontent.com/OpenSelena/libreget/main/flatpak/screenshots/main.png</image>
+      <image>https://raw.githubusercontent.com/TongQuocTuan/libreget/main/flatpak/screenshots/main.png</image>
     </screenshot>
   </screenshots>
   <branding>

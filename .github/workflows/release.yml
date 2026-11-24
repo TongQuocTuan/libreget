@@ -98,7 +98,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY }}
           TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD }}
-          LDAI_UPDATE_INFORMATION: ${{ contains(matrix.platform, 'ubuntu') && 'gh-releases-zsync|OpenSelena|libreget|latest|*AppImage.zsync' || '' }}
+          LDAI_UPDATE_INFORMATION: ${{ contains(matrix.platform, 'ubuntu') && 'gh-releases-zsync|TongQuocTuan|libreget|latest|*AppImage.zsync' || '' }}
           # linuxdeploy bundles an old `strip` that fails on modern .relr.dyn
           # relocations; disable stripping so AppImage bundling succeeds.
           NO_STRIP: ${{ contains(matrix.platform, 'ubuntu') && '1' || '' }}
@@ -147,7 +147,7 @@ jobs:
 
             ### Code signing policy
 
-            Free code signing provided by [SignPath.io](https://about.signpath.io), certificate by [SignPath Foundation](https://signpath.org). Code changes and signed releases are reviewed and approved by the OpenSelena maintainers. See our [Privacy Policy](https://github.com/OpenSelena/libreget#privacy-and-what-libreget-refuses-to-do).
+            Free code signing provided by [SignPath.io](https://about.signpath.io), certificate by [SignPath Foundation](https://signpath.org). Code changes and signed releases are reviewed and approved by the TongQuocTuan maintainers. See our [Privacy Policy](https://github.com/TongQuocTuan/libreget#privacy-and-what-libreget-refuses-to-do).
           releaseDraft: true
           prerelease: false
           includeUpdaterJson: false
